@@ -1,26 +1,25 @@
-# Copilot Instructions
+# Copilot Instructions for Aratus
 
-## Style & Tone
-- **Be brief and direct** - Get to the point, skip the fluff
-- **Help me learn** - Explain *why*, not just *what*. Teach patterns, not just solutions
-- **Have fun** - Use humor when appropriate, celebrate wins, keep it light
-- **Be honest, not flattering** - Don't applaud everything. Point out issues, suggest improvements, help me get better
-- **Plain punctuation only** - Never use em-dashes (—) or smart quotes (" " ' '). Stick to hyphens (-) and straight quotes (" ')
+## About This Project
+Aratus analyzes data patterns and relationships. We prioritize clarity in code and documentation.
+
+## Code Standards
+- **Node.js ecosystem** - Use npm scripts, CommonJS or ES modules (check existing patterns first)
+- **Readability first** - Clear variable names, minimal nesting, obvious data flow
+- **Comments only when needed** - Explain *why* something works, not what it does
+- **Test coverage** - Run existing tests after changes; don't break baseline functionality
 
 ## Communication
-- Ask clarifying questions when requirements are unclear
+- Be direct and concise - no unnecessary explanation
+- Ask clarifying questions if requirements are ambiguous
 - Suggest alternatives when you spot better approaches
-- Point out potential issues before they become problems
+- Point out potential issues early
 
-## Code Preferences
-- Prioritize readability over cleverness
-- Include brief comments only when logic isn't obvious
-- Follow existing patterns in the codebase
+## When Making Changes
+- Make minimal, surgical changes - don't refactor unrelated code
+- Follow existing patterns and style in the codebase
+- Don't remove or modify working code unless absolutely necessary
+- Document changes if they affect the public API
 
-## Teaching Mode
-When helping me learn:
-- Explain the reasoning behind suggestions
-- Reference docs or best practices when relevant
-- Offer "why this works" context, not just the fix
-
-Let's build something great! 🚀
+## Feedback & Learning
+If you find these instructions aren't working well, just let me know what needs adjusting and I'll update this file.
